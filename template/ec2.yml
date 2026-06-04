@@ -15,7 +15,7 @@ Parameters:
 
 Resources:
 
-  MyEC2Wilder:
+  MiServidorEC2:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: us-east-1a
@@ -52,4 +52,4 @@ Resources:
 
 Outputs:
   InstanceId:
-    Value: !Ref MyEC2Wilder
+    Value: !Ref MiServidorEC2
